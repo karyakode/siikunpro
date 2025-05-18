@@ -76,6 +76,12 @@ Untuk menambahkan target direktori enkripsi baru:
 
 ---
 
+## 📄 Lisensi
+
+Proyek ini hanya boleh digunakan untuk kebutuhan pribadi atau internal. Beberapa fitur bersifat premium dan hanya tersedia pada versi berbayar. Dilarang menyebarluaskan atau memodifikasi tanpa izin dari pengembang.
+
+---
+
 ## 📬 Kontak
 
 Pengembang: **Rohmad Kadarwanto**  
