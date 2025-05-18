@@ -94,7 +94,7 @@
                   <span class="badge bagde-info text-success"><?php echo substr($version,1,3); ?></span>
                 </h1>
                 </div>
-    <?php  ?>
+    <?php /* */ ?>
                 <!-- Right navbar links -->
                 <ul  style="float: right;" class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
                   <!-- Messages Dropdown Menu -->
