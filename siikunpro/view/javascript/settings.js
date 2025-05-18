@@ -17,11 +17,11 @@ const modalSettingsContent = async (body) => {
 
 // Data tabs settings yang digunakan dalam modal
 const tabsDataSettings = [
-    {
+    /*{
         label: 'Obfuscator',
         id: 'obfuscator-configuration',
         content: `<div id="dynamicObfuscatorContainer"></div>`
-    },
+    },*/
     {
         label: 'Directory',
         id: 'directory-configuration',
@@ -100,6 +100,14 @@ function clearConfig(selector) {
     }
 }
 
+function removeConfigPath(selector) {
+    const container = document.getElementById(selector);
+    if (container) {
+
+        container.remove();
+    }
+}
+
 // Fungsi untuk membuat form obfuscator
 function createObfuscatorForm(pathConfig = {}) {
     const pathForm = document.createElement('div');
@@ -120,6 +128,7 @@ function createObfuscatorForm(pathConfig = {}) {
 function createPathForm(key, pathConfig = {}, index) {
     const pathForm = document.createElement('div');
     pathForm.classList.add('path-config');
+    pathForm.id = `${key}`;
     pathForm.innerHTML = `
         <div class="form-group">
             <label for="name_${key}">Name</label>
@@ -129,10 +138,10 @@ function createPathForm(key, pathConfig = {}, index) {
             <label for="path_${key}">Path</label>
             <input type="text" class="form-control path-field" data-key="${key}" id="path_${key}" value="${pathConfig.path || ''}">
         </div>
-        <div class="form-group">
+        <!--div class="form-group">
             <label for="destination_${key}">Destination</label>
             <input type="text" class="form-control destination-field" data-key="${key}" id="destination_${key}" value="${pathConfig.destination || ''}">
-        </div>
+        </div-->
         <div class="form-group">
             <label for="ignored_files_${key}">Ignored files</label>
             <textarea class="form-control ignored-files-field" data-key="${key}" id="ignored_files_${key}">${(pathConfig.ignored_files || []).join(', ')}</textarea>
