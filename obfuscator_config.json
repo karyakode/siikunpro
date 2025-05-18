@@ -1,46 +1,4 @@
 {
     "configuration_directory": {
-        "path_1": {
-            "name": "SiiKUN PRO",
-            "path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30",
-            "destination": "",
-            "ignored_files": [],
-            "ignored_dirs": [],
-            "duplicated_files": [
-                "system\/helper\/utf8.php"
-            ],
-            "duplicated_dirs": [
-                "system\/storage\/vendor",
-                "system\/library\/template\/Twig"
-            ]
-        },
-        "path_2": {
-            "name": "Lockify",
-            "path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/T",
-            "destination": "",
-            "ignored_files": [],
-            "ignored_dirs": [
-                "repository",
-                "siikun",
-                "system\/plugins\/off"
-            ],
-            "duplicated_files": [
-                "system\/helper\/utf8.php"
-            ],
-            "duplicated_dirs": [
-                "vendor"
-            ]
-        },
-        "path_3": {
-            "name": "Coba Encoder",
-            "path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/coba_encoder",
-            "destination": "",
-            "ignored_files": [],
-            "ignored_dirs": [],
-            "duplicated_files": [
-                "header.php"
-            ],
-            "duplicated_dirs": []
-        }
     }
 }
