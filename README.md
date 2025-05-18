@@ -36,8 +36,9 @@ composer install
 
 ### 2. Pastikan izin folder benar
 ```bash
-chmod -R 775 system/storage/
-chmod -R 775 system/repository/
+chmod -R 777 system/storage/
+chmod -R 777 system/repository/
+chmod -R 777 obfuscator_config.json
 ```
 
 ### 3. Akses melalui browser
@@ -87,3 +88,4 @@ Proyek ini hanya boleh digunakan untuk kebutuhan pribadi atau internal. Beberapa
 Pengembang: **Rohmad Kadarwanto**  
 Organisasi: [Karya Kode Indonesia](https://github.com/karyakode)  
 Email: `karyakode[at]gmail.com`
+

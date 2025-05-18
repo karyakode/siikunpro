@@ -18,28 +18,7 @@
         <h1 class="mb-4">Daftar Direktori</h1>
         <ul class="list-group">
             <?php
-            $basePath = __DIR__ . '/repository';
-
-            if (is_dir($basePath)) {
-                $items = scandir($basePath);
-                $directories = array_filter($items, function ($item) use ($basePath) {
-                    return is_dir($basePath . '/' . $item) && $item !== '.' && $item !== '..';
-                });
-
-                if (!empty($directories)) {
-                    foreach ($directories as $directory) {
-                        $relativePath = 'repository/' . $directory . '/';
-                        echo '<li class="list-group-item">';
-                        echo '<a href="' . $relativePath . '" target="_blank" class="text-decoration-none">' . htmlspecialchars($directory) . '</a>';
-                        echo '</li>';
-                    }
-                } else {
-                    echo '<li class="list-group-item">Tidak ada direktori di dalam folder <code>repository</code>.</li>';
-                }
-            } else {
-                echo '<li class="list-group-item text-danger">Folder <code>repository</code> tidak ditemukan.</li>';
-            }
-            ?>
+ $basePath = __DIR__ . '/repository'; if (is_dir($basePath)) { $items = scandir($basePath); $directories = array_filter($items, function ($item) use ($basePath) { return is_dir($basePath . '/' . $item) && $item !== '.' && $item !== '..'; }); if (!empty($directories)) { foreach ($directories as $directory) { $relativePath = 'repository/' . $directory . '/'; echo '<li class="list-group-item">'; echo '<a href="' . $relativePath . '" target="_blank" class="text-decoration-none">' . htmlspecialchars($directory) . '</a>'; echo '</li>'; } } else { echo '<li class="list-group-item">Tidak ada direktori di dalam folder <code>repository</code>.</li>'; } } else { echo '<li class="list-group-item text-danger">Folder <code>repository</code> tidak ditemukan.</li>'; } ?>
         </ul>
     </div>
 

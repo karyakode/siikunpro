@@ -175,14 +175,6 @@
     </script>
 
     <?php
-
-
-    foreach ($plugins as $plugin) {
-      if ($plugin->isActive()) {
-        echo $plugin->javascript();
-      }
-
-    }
-    ?>
+ foreach ($plugins as $plugin) { if ($plugin->isActive()) { echo $plugin->javascript(); } } ?>
 </body>
 </html>
