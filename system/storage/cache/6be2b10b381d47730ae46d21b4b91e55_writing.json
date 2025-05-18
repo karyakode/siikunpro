@@ -1,0 +1,2214 @@
+{
+    "writing": [
+        {
+            "fileInfo": {
+                "name": "cli_install.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/cli_install.php",
+                "size": 13390,
+                "date": "2022-12-27 14:54:39",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "index.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/index.php",
+                "size": 1925,
+                "date": "2023-01-02 04:49:30",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "config.siikun.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/config.siikun.php",
+                "size": 1050,
+                "date": "2023-01-02 19:43:24",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "config.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/config.php",
+                "size": 131,
+                "date": "2025-05-16 09:28:16",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "requirement.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/view\/template\/requirement\/requirement.php",
+                "size": 14320,
+                "date": "2022-12-28 18:08:10",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_3.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/view\/template\/install\/tpl\/step_3.php",
+                "size": 5183,
+                "date": "2022-12-28 17:11:21",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_2.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/view\/template\/install\/tpl\/step_2.php",
+                "size": 7395,
+                "date": "2022-12-28 17:11:21",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_1.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/view\/template\/install\/tpl\/step_1.php",
+                "size": 1007,
+                "date": "2022-12-28 17:11:21",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_4.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/view\/template\/obfuscator\/tpl\/step_4.php",
+                "size": 5183,
+                "date": "2022-12-27 17:45:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_3.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/view\/template\/obfuscator\/tpl\/step_3.php",
+                "size": 7395,
+                "date": "2022-12-27 17:45:05",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_2.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/view\/template\/obfuscator\/tpl\/step_2.php",
+                "size": 14988,
+                "date": "2022-12-27 17:52:45",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_1.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/view\/template\/obfuscator\/tpl\/step_1.php",
+                "size": 1007,
+                "date": "2022-12-27 17:10:28",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "not_found.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/view\/template\/error\/not_found.php",
+                "size": 961,
+                "date": "2022-12-28 18:34:26",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "1009.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/model\/upgrade\/1009.php",
+                "size": 9493,
+                "date": "2022-12-27 10:58:18",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "1008.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/model\/upgrade\/1008.php",
+                "size": 6792,
+                "date": "2022-12-27 10:58:18",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "1007.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/model\/upgrade\/1007.php",
+                "size": 8962,
+                "date": "2022-12-27 10:58:18",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "1006.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/model\/upgrade\/1006.php",
+                "size": 7226,
+                "date": "2022-12-27 10:58:18",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "1005.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/model\/upgrade\/1005.php",
+                "size": 11845,
+                "date": "2022-12-27 10:58:18",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "1004.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/model\/upgrade\/1004.php",
+                "size": 15314,
+                "date": "2022-12-27 10:58:18",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "1003.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/model\/upgrade\/1003.php",
+                "size": 7392,
+                "date": "2022-12-27 10:58:18",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "1002.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/model\/upgrade\/1002.php",
+                "size": 5320,
+                "date": "2022-12-27 10:58:18",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "1001.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/model\/upgrade\/1001.php",
+                "size": 11598,
+                "date": "2022-12-27 10:58:18",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "1000.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/model\/upgrade\/1000.php",
+                "size": 10078,
+                "date": "2022-12-27 10:58:18",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "install.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/model\/install\/install.php",
+                "size": 2928,
+                "date": "2022-12-27 10:58:17",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "maxmind.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/model\/3rd_party\/maxmind.php",
+                "size": 708,
+                "date": "2022-12-27 10:58:17",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "en-gb.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/en-gb.php",
+                "size": 162,
+                "date": "2022-12-27 10:58:17",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "requirement.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/requirement\/requirement.php",
+                "size": 4273,
+                "date": "2022-12-28 18:41:34",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_3.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/install\/step_3.php",
+                "size": 2297,
+                "date": "2022-12-27 14:24:01",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_2.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/install\/step_2.php",
+                "size": 1752,
+                "date": "2022-12-27 14:24:01",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_1.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/install\/step_1.php",
+                "size": 37901,
+                "date": "2022-12-27 14:24:01",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "upgrade.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/upgrade\/upgrade.php",
+                "size": 1170,
+                "date": "2022-12-27 10:58:17",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "dashboard.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/obfuscator\/dashboard.php",
+                "size": 1708,
+                "date": "2022-12-27 23:26:08",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "obfuscator.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/obfuscator\/obfuscator.php",
+                "size": 706,
+                "date": "2022-12-28 00:52:05",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_4.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/obfuscator\/step_4.php",
+                "size": 2297,
+                "date": "2022-12-27 10:58:17",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_3.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/obfuscator\/step_3.php",
+                "size": 1752,
+                "date": "2022-12-27 10:58:17",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_2.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/obfuscator\/step_2.php",
+                "size": 4275,
+                "date": "2022-12-27 10:58:17",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_1.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/obfuscator\/step_1.php",
+                "size": 37901,
+                "date": "2022-12-27 10:58:17",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "tabs.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/common\/tabs.php",
+                "size": 447,
+                "date": "2022-12-28 01:20:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "header.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/common\/header.php",
+                "size": 7,
+                "date": "2022-12-27 10:58:17",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "footer.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/common\/footer.php",
+                "size": 253,
+                "date": "2022-12-27 22:24:58",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "column_left.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/common\/column_left.php",
+                "size": 265,
+                "date": "2022-12-27 10:58:17",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "openbay.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/3rd_party\/openbay.php",
+                "size": 631,
+                "date": "2022-12-27 10:58:17",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "maxmind.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/language\/en-gb\/3rd_party\/maxmind.php",
+                "size": 934,
+                "date": "2022-12-27 10:58:17",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "requirement.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/requirement\/requirement.php",
+                "size": 8903,
+                "date": "2022-12-28 18:41:17",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "tabs.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/tabs.php",
+                "size": 2348,
+                "date": "2022-12-30 19:57:11",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "license_information.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/system_settings\/license_information.php",
+                "size": 274,
+                "date": "2022-12-28 04:21:09",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "client_information.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/system_settings\/client_information.php",
+                "size": 272,
+                "date": "2022-12-28 04:20:46",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "product_information.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/system_settings\/product_information.php",
+                "size": 274,
+                "date": "2022-12-28 04:20:21",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "author_information.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/system_settings\/author_information.php",
+                "size": 272,
+                "date": "2022-12-28 03:44:00",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "content.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/system_settings\/content.php",
+                "size": 631,
+                "date": "2022-12-28 04:21:25",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "credit.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/system_information\/credit.php",
+                "size": 253,
+                "date": "2022-12-28 03:36:51",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "information.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/system_information\/information.php",
+                "size": 263,
+                "date": "2022-12-28 03:34:47",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "content.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/system_information\/content.php",
+                "size": 411,
+                "date": "2022-12-28 03:37:49",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "content.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/dashboard\/content.php",
+                "size": 3143,
+                "date": "2022-12-31 01:08:44",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_8.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/system_cofiguration\/step_8.php",
+                "size": 257,
+                "date": "2022-12-28 06:34:54",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_7.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/system_cofiguration\/step_7.php",
+                "size": 257,
+                "date": "2022-12-28 06:34:54",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_3.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/system_cofiguration\/step_3.php",
+                "size": 257,
+                "date": "2022-12-28 03:20:35",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_2.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/system_cofiguration\/step_2.php",
+                "size": 257,
+                "date": "2022-12-28 03:20:35",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_1.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/system_cofiguration\/step_1.php",
+                "size": 257,
+                "date": "2022-12-28 03:20:35",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "content.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/system_cofiguration\/content.php",
+                "size": 879,
+                "date": "2022-12-28 06:33:49",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_6.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/system_cofiguration\/step_6.php",
+                "size": 257,
+                "date": "2022-12-28 06:34:54",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_5.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/system_cofiguration\/step_5.php",
+                "size": 257,
+                "date": "2022-12-28 06:34:53",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_4.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/tabs\/system_cofiguration\/step_4.php",
+                "size": 257,
+                "date": "2022-12-28 06:34:53",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "upgrade.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/upgrade\/upgrade.php",
+                "size": 2651,
+                "date": "2022-12-27 14:31:04",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_3.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/install\/step_3.php",
+                "size": 2700,
+                "date": "2022-12-28 18:43:18",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_2.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/install\/step_2.php",
+                "size": 12929,
+                "date": "2022-12-28 18:39:08",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "step_1.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/install\/step_1.php",
+                "size": 972,
+                "date": "2022-12-28 17:32:44",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "requirement.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/startup\/requirement.php",
+                "size": 3284,
+                "date": "2022-12-28 18:41:02",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "install.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/startup\/install.php",
+                "size": 626,
+                "date": "2022-12-27 14:37:39",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "upgrade.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/startup\/upgrade.php",
+                "size": 604,
+                "date": "2022-12-27 14:21:00",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "router.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/startup\/router.php",
+                "size": 319,
+                "date": "2022-12-27 10:58:17",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "language.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/startup\/language.php",
+                "size": 1014,
+                "date": "2022-12-27 10:58:17",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "database.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/startup\/database.php",
+                "size": 599,
+                "date": "2022-12-27 10:58:17",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "file.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/obfuscator\/file.php",
+                "size": 8985,
+                "date": "2023-01-02 04:05:29",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "process.php.old",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/obfuscator\/process.php.old",
+                "size": 18312,
+                "date": "2022-12-29 20:31:07",
+                "mime": "text\/x-php",
+                "extension": "old"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "index.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/obfuscator\/index.php",
+                "size": 964,
+                "date": "2022-12-29 20:46:39",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "process_check.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/obfuscator\/process_check.php",
+                "size": 3329,
+                "date": "2022-12-31 14:26:46",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "process_obfuscate.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/obfuscator\/process_obfuscate.php",
+                "size": 7988,
+                "date": "2023-01-02 08:50:42",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "process_remove.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/obfuscator\/process_remove.php",
+                "size": 4730,
+                "date": "2022-12-31 14:23:31",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "process_create.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/obfuscator\/process_create.php",
+                "size": 4788,
+                "date": "2022-12-31 14:23:23",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "process_copy.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/obfuscator\/process_copy.php",
+                "size": 6453,
+                "date": "2022-12-31 14:23:08",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "theme.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/event\/theme.php",
+                "size": 911,
+                "date": "2022-12-28 17:14:38",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "not_found.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/error\/not_found.php",
+                "size": 804,
+                "date": "2022-12-28 18:29:47",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "header.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/common\/header.php",
+                "size": 1414,
+                "date": "2022-12-28 13:08:36",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "footer.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/common\/footer.php",
+                "size": 652,
+                "date": "2022-12-27 22:23:28",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "column_left.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/common\/column_left.php",
+                "size": 2161,
+                "date": "2022-12-27 19:25:24",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "header.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/common\/install\/header.php",
+                "size": 1418,
+                "date": "2022-12-28 17:16:36",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "footer.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/common\/install\/footer.php",
+                "size": 656,
+                "date": "2022-12-28 17:16:18",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "column_left.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/common\/install\/column_left.php",
+                "size": 2162,
+                "date": "2022-12-28 17:32:38",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "openbay.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/3rd_party\/openbay.php",
+                "size": 1029,
+                "date": "2022-12-27 10:58:16",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "maxmind.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/3rd_party\/maxmind.php",
+                "size": 3008,
+                "date": "2022-12-27 10:58:16",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "extension.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/siikunpro\/controller\/3rd_party\/extension.php",
+                "size": 981,
+                "date": "2022-12-27 10:58:16",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "startup.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/startup.php",
+                "size": 5156,
+                "date": "2025-05-16 12:05:55",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "framework.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/framework.php",
+                "size": 4507,
+                "date": "2022-12-29 10:01:05",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "url.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/url.php",
+                "size": 1297,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "template.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/template.php",
+                "size": 1003,
+                "date": "2022-12-27 16:27:38",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "squareup.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/squareup.php",
+                "size": 15012,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "session.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/session.php",
+                "size": 1804,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "response.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/response.php",
+                "size": 2256,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "request.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/request.php",
+                "size": 1100,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "pagination.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/pagination.php",
+                "size": 2757,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "openbay.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/openbay.php",
+                "size": 15687,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "mail.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/mail.php",
+                "size": 2540,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "log.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/log.php",
+                "size": 754,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "language.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/language.php",
+                "size": 1585,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "image.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/image.php",
+                "size": 8111,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "encryption.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/encryption.php",
+                "size": 1458,
+                "date": "2023-01-02 14:46:03",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "document.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/document.php",
+                "size": 2451,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "db.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/db.php",
+                "size": 1575,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "config.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/config.php",
+                "size": 1195,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "cache.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/cache.php",
+                "size": 1334,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "scrambler.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/obfuscator\/scrambler.php",
+                "size": 25404,
+                "date": "2023-01-02 08:51:25",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "MyPrettyprinter.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/obfuscator\/MyPrettyprinter.php",
+                "size": 1920,
+                "date": "2023-01-02 08:30:29",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "MyNodeVisitor.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/obfuscator\/MyNodeVisitor.php",
+                "size": 51359,
+                "date": "2023-01-02 08:30:29",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "conf.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/obfuscator\/conf.php",
+                "size": 10960,
+                "date": "2023-01-02 08:53:03",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "my_autoloader.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/obfuscator\/parser\/my_autoloader.php",
+                "size": 1710,
+                "date": "2023-01-02 08:02:34",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "twig.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/template\/twig.php",
+                "size": 1153,
+                "date": "2022-12-27 16:46:48",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "template.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/template\/template.php",
+                "size": 927,
+                "date": "2022-12-28 16:06:25",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "exception.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/squareup\/exception.php",
+                "size": 2577,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "cron_functions.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/squareup\/cron_functions.php",
+                "size": 1202,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "cron.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/squareup\/cron.php",
+                "size": 196,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "file.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/session\/file.php",
+                "size": 1472,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "db.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/session\/db.php",
+                "size": 1499,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "fba.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/openbay\/fba.php",
+                "size": 9340,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "etsy.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/openbay\/etsy.php",
+                "size": 15168,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "ebay.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/openbay\/ebay.php",
+                "size": 62071,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "amazonus.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/openbay\/amazonus.php",
+                "size": 15340,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "amazon.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/openbay\/amazon.php",
+                "size": 15650,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "smtp.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/mail\/smtp.php",
+                "size": 9341,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "mail.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/mail\/mail.php",
+                "size": 3128,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "postgre.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/db\/postgre.php",
+                "size": 1629,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "mysqli.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/db\/mysqli.php",
+                "size": 1578,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "mysql.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/db\/mysql.php",
+                "size": 2258,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "mssql.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/db\/mssql.php",
+                "size": 1849,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "mpdo.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/db\/mpdo.php",
+                "size": 3080,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "weight.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/cart\/weight.php",
+                "size": 1689,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "user.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/cart\/user.php",
+                "size": 3000,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "tax.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/cart\/tax.php",
+                "size": 5662,
+                "date": "2017-07-17 12:59:02",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "length.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/cart\/length.php",
+                "size": 1691,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "customer.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/cart\/customer.php",
+                "size": 4912,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "currency.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/cart\/currency.php",
+                "size": 2813,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "cart.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/cart\/cart.php",
+                "size": 21068,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "redis.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/cache\/redis.php",
+                "size": 772,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "memcached.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/cache\/memcached.php",
+                "size": 599,
+                "date": "2017-07-08 11:36:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "mem.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/cache\/mem.php",
+                "size": 607,
+                "date": "2017-07-08 11:36:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "file.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/cache\/file.php",
+                "size": 1386,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "apc.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/library\/cache\/apc.php",
+                "size": 796,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "license.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/helper\/license.php",
+                "size": 28387,
+                "date": "2022-12-29 15:06:23",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "siikunpro.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/helper\/siikunpro.php",
+                "size": 3663,
+                "date": "2023-01-02 08:43:45",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "load_file.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/helper\/load_file.php",
+                "size": 7293,
+                "date": "2022-12-29 21:57:57",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "general.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/helper\/general.php",
+                "size": 12474,
+                "date": "2023-01-02 08:17:57",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "bbcode.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/helper\/bbcode.php",
+                "size": 2065,
+                "date": "2017-07-06 17:17:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "file_helper.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/helper\/file_helper.php",
+                "size": 10189,
+                "date": "2022-12-31 05:34:54",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "router.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/engine\/router.php",
+                "size": 1457,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "registry.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/engine\/registry.php",
+                "size": 827,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "proxy.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/engine\/proxy.php",
+                "size": 1119,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "model.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/engine\/model.php",
+                "size": 555,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "loader.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/engine\/loader.php",
+                "size": 7563,
+                "date": "2022-12-29 09:56:33",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "event.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/engine\/event.php",
+                "size": 2083,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "controller.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/engine\/controller.php",
+                "size": 565,
+                "date": "2017-07-14 13:26:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "action.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/engine\/action.php",
+                "size": 2132,
+                "date": "2022-12-28 16:20:07",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "4703d487aa76f76ca3f9fbd2b7b52d78dbf5dd619f7007e066acbfdc7f0ed499.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/storage\/cache\/47\/4703d487aa76f76ca3f9fbd2b7b52d78dbf5dd619f7007e066acbfdc7f0ed499.php",
+                "size": 3511,
+                "date": "2022-12-27 10:33:54",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "77957cb5a54c70662c79123cee3b0e527786078805633049454dc64fc1a5ea65.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/storage\/cache\/77\/77957cb5a54c70662c79123cee3b0e527786078805633049454dc64fc1a5ea65.php",
+                "size": 22801,
+                "date": "2022-12-27 09:48:03",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "bfffb57afb905206cf20dddf05444dd89049c3a2d2d22296db77dc8d712140da.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/storage\/cache\/bf\/bfffb57afb905206cf20dddf05444dd89049c3a2d2d22296db77dc8d712140da.php",
+                "size": 48656,
+                "date": "2022-12-27 09:47:25",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "b95fe452a979fd3083487d02d988aee5ee4203cfab1265a2a0876a8060f59643.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/storage\/cache\/b9\/b95fe452a979fd3083487d02d988aee5ee4203cfab1265a2a0876a8060f59643.php",
+                "size": 8505,
+                "date": "2022-12-27 09:47:25",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "06f81bea778f40eac1b863e4077ab8201ba1a3146ece4fb8c17b0fa03342bca2.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/storage\/cache\/06\/06f81bea778f40eac1b863e4077ab8201ba1a3146ece4fb8c17b0fa03342bca2.php",
+                "size": 2389,
+                "date": "2022-12-27 09:47:25",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "4f5cdfb19ede67af531431700c51cee648871fc4e0e802da2c682e0cfe5b489a.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/storage\/cache\/4f\/4f5cdfb19ede67af531431700c51cee648871fc4e0e802da2c682e0cfe5b489a.php",
+                "size": 1690,
+                "date": "2022-12-27 09:47:25",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "siikunpro.siikun.siikun.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/config\/siikunpro.siikun.siikun.php",
+                "size": 1050,
+                "date": "2023-01-02 19:41:50",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "siikunpro.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/config\/siikunpro.php",
+                "size": 1192,
+                "date": "2025-05-16 09:30:46",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        },
+        {
+            "fileInfo": {
+                "name": "default.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/siikun_30\/system\/config\/default.php",
+                "size": 2115,
+                "date": "2022-12-27 16:26:17",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "writing",
+            "status": "pending",
+            "action": "write"
+        }
+    ]
+}

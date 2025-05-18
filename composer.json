@@ -1,0 +1,38 @@
+{
+    "name": "karyakode/siikunpro",
+    "description": "SiiKUN PRO PHP encoder and obfuscator",
+    "keywords": [ "base62", "base58", "base52", "base36", "base26", "baseNNN", "baseNN", "baseN" ],
+    "homepage": "https://github.com/karyakode/siikunpro",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rohmad Kadarwanto",
+            "email": "indo@karyakode.id"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "KaryaKode\\":"system/src/siikunpro/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "@php test/selftest.php"
+        ]
+    },
+    "require": {
+        "nikic/php-parser": "^4.17",
+        "cboden/ratchet": "^0.4.4",
+        "phpstan/phpstan": "^1.10",
+        "ratchet/pawl": "^0.4.1",
+        "symfony/console":               "~2.5",
+        "symfony/dependency-injection":  "~2.5",
+        "symfony/config":                "~2.5",
+        "symfony/yaml":                  "~2.5",
+        "symfony/event-dispatcher":      "~2.5"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.2"
+    }
+}

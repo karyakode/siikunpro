@@ -1,0 +1,30 @@
+{
+    "duplicated": [
+        {
+            "fileInfo": {
+                "name": "header.php",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/coba_encoder\/header.php",
+                "size": 25,
+                "date": "2025-05-16 17:40:49",
+                "mime": "text\/x-php",
+                "extension": "php"
+            },
+            "typeFile": "duplicated",
+            "status": "pending",
+            "action": "copy"
+        },
+        {
+            "fileInfo": {
+                "name": "stylesheet.css",
+                "server_path": "\/var\/www\/karyakode.id\/html\/karyakode\/privy\/coba_encoder\/stylesheet.css",
+                "size": 3647,
+                "date": "2025-05-18 00:27:59",
+                "mime": "text\/plain",
+                "extension": "css"
+            },
+            "typeFile": "duplicated",
+            "status": "pending",
+            "action": "copy"
+        }
+    ]
+}
