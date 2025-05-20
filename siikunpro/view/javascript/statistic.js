@@ -173,13 +173,13 @@ const initializeStatistics = () => {
         { id: 'all-statistic-file', class: 'purple', title: 'Statistik File', colSize: 6, skin: 'purple', isGradient: true, boxType: 'info-box' },
         { id: 'all-statistic-excluded', class: 'warning', title: 'File yang dikecualikan', colSize: 6, skin: 'warning', isGradient: true, boxType: 'info-box', link: '#more-info-excluded' },
         { id: 'all-statistic-moved', class: 'maroon', title: 'File yang dipindahkan', colSize: 6, skin: 'maroon', isGradient: true, boxType: 'info-box', link: '#more-info-moved' },
-        { id: 'all-statistic-written', class: 'navy', title: 'File yang ditulis', colSize: 6, skin: 'navy', isGradient: true, boxType: 'info-box' }
+        { id: 'all-statistic-written', class: 'navy', title: 'File yang dienkripsi', colSize: 6, skin: 'navy', isGradient: true, boxType: 'info-box' }
     ];
 
     const specificStatisticsConfig = [
         { id: 'statistic-file', class: 'danger', title: 'Statistik File', colSize: 4, skin: 'danger', showProgress: true, isGradient: true, boxType: 'info-box', link: '#more-info-file' },
         { id: 'statistic-copied', class: 'info', title: 'File yang tercopy', colSize: 4, skin: 'info', showProgress: true, isGradient: true, boxType: 'info-box', link: '#more-info-copied' },
-        { id: 'statistic-written', class: 'success', title: 'File yang tertulis', colSize: 4, skin: 'success', showProgress: true, isGradient: true, boxType: 'info-box' }
+        { id: 'statistic-written', class: 'success', title: 'File yang terenkripsi', colSize: 4, skin: 'success', showProgress: true, isGradient: true, boxType: 'info-box' }
     ];
 
     renderStatistics('statistics-row', allStatisticsConfig, fetchAllStatisticsAndUpdate);

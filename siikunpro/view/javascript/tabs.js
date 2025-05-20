@@ -11,7 +11,7 @@ const tabsData = [
         content: ``,
         nestedTabs: [
             {
-                label: `File yang ditulis (<span id="countWritedFiles">0</span>)`,
+                label: `File yang dienkripsi (<span id="countWritedFiles">0</span>)`,
                 content: `
                   <div class="section pt-4" style="height: 600px; overflow: auto;">
 

@@ -341,13 +341,36 @@ const intervalManager = (() => {
  * @param {Object} [attributes={}] - Object containing attributes to set on the element.
  * @returns {HTMLElement} - The created HTML element.
  */
-const createElement = (tag, classNames = '', innerHTML = '', attributes = {}) => {
-    const element = document.createElement(tag);
-    if (classNames) element.className = classNames;
-    if (innerHTML) element.innerHTML = innerHTML;
-    Object.entries(attributes).forEach(([key, value]) => element.setAttribute(key, value));
-    return element;
-};
+ const createElement = (tag, classNames = '', innerHTML = '', attributes = {}, children = []) => {
+   const element = document.createElement(tag);
+
+   // Tangani classNames, bisa string atau array
+   if (classNames) {
+     if (Array.isArray(classNames)) {
+       element.className = classNames.join(' ');
+     } else {
+       element.className = classNames;
+     }
+   }
+
+   if (innerHTML) element.innerHTML = innerHTML;
+
+   Object.entries(attributes).forEach(([key, value]) => element.setAttribute(key, value));
+
+   // Tambahkan children jika ada
+   if (Array.isArray(children) && children.length > 0) {
+     children.forEach(child => {
+       if (child instanceof Node) {
+         element.appendChild(child);
+       } else if (typeof child === 'string' || typeof child === 'number') {
+         element.appendChild(document.createTextNode(child));
+       }
+     });
+   }
+
+   return element;
+ };
+
 
 function createNavLink(config) {
     const defaultConfig = {
@@ -687,6 +710,10 @@ function createModal(config) {
          const toolButton = createElement('button', 'btn btn-tool', '', {
              'data-card-widget': tool.widget
          });
+         // Tambahkan callback onClick jika tersedia
+         if (typeof tool.onClick === 'function') {
+             toolButton.addEventListener('click', tool.onClick);
+         }
          const iconElement = createElement('i', `fas ${tool.icon}`);
          toolButton.appendChild(iconElement);
          cardTools.appendChild(toolButton);
@@ -696,11 +723,11 @@ function createModal(config) {
      cardHeader.appendChild(cardTools);
 
      // Create the card body
-     const cardBody = createElement('div', 'card-body', bodyContent);
+     const cardBody = createElement('div', 'card-body', bodyContent, {'id': `${id}-content`});
 
      // Append header and body to the card
      card.appendChild(cardHeader);
-     card.appendChild(cardBody);
+     if(bodyContent !== false) card.appendChild(cardBody);
 
      return card;
  };

@@ -8,7 +8,7 @@ const elements = {
 
 
 // Utility function to render file info card
-const renderFileInfo = (fileInfo) => {
+const renderFileInfo = (fileInfo, status) => {
 
   // Menghitung MD5 dari fileInfo.name
   const encodedFileName = CryptoJS.MD5(fileInfo.name).toString();
@@ -24,15 +24,54 @@ const renderFileInfo = (fileInfo) => {
                 <dt class="col-sm-3">File Path</dt>
                 <dd class="col-sm-9">${fileInfo.server_path}</dd>
                 <dt class="col-sm-3">File Size</dt>
-                <dd class="col-sm-9">${fileInfo.size}</dd>
+                <dd class="col-sm-9">${fileInfo.sizeMb}</dd>
                 <dt class="col-sm-3">File Date</dt>
                 <dd class="col-sm-9">${fileInfo.date}</dd>
                 <dt class="col-sm-3">Status</dt>
-                <dd class="col-sm-9">${fileInfo.date}</dd>
+                <dd class="col-sm-9">${status}</dd>
             </dl>
         `,
         icon: 'fa-file',
-        cardClass: 'card-default collapsed-card text-info',
+        cardClass: 'card-default collapsed-card text-danger',
+        isCollapsed: true,
+        usePills: false,
+        tools: [
+            {
+                widget: 'collapse',
+                icon: 'fa-plus',
+                onClick: () => ConsoleManager.log('Card collapsed toggled'),
+            }
+        ],
+    });
+
+
+    return card.outerHTML; // Pastikan mengembalikan string HTML
+};
+const renderFileDuplicatedInfo = (fileInfo, status) => {
+
+  // Menghitung MD5 dari fileInfo.name
+  const encodedFileName = CryptoJS.MD5(fileInfo.name).toString();
+
+    // Menggunakan helper createAdminCard untuk membuat card
+    const card = createAdminCard({
+        id: `${encodedFileName}`,
+        title: `${fileInfo.name}`,
+        bodyContent: `
+            <dl class="row">
+                <dt class="col-sm-3">File Name</dt>
+                <dd class="col-sm-9">${fileInfo.name}</dd>
+                <dt class="col-sm-3">File Path</dt>
+                <dd class="col-sm-9">${fileInfo.server_path}</dd>
+                <dt class="col-sm-3">File Size</dt>
+                <dd class="col-sm-9">${fileInfo.sizeMb}</dd>
+                <dt class="col-sm-3">File Date</dt>
+                <dd class="col-sm-9">${fileInfo.date}</dd>
+                <dt class="col-sm-3">Status</dt>
+                <dd class="col-sm-9">${status}</dd>
+            </dl>
+        `,
+        icon: 'fa-file',
+        cardClass: 'card-default collapsed-card text-success',
         isCollapsed: true,
         usePills: false,
         tools: [
@@ -48,6 +87,25 @@ const renderFileInfo = (fileInfo) => {
     return card.outerHTML; // Pastikan mengembalikan string HTML
 };
 
+const renderFileIgnoredInfo = (fileInfo, status) => {
+
+  // Menghitung MD5 dari fileInfo.name
+  const encodedFileName = CryptoJS.MD5(fileInfo.name).toString();
+
+    // Menggunakan helper createAdminCard untuk membuat card
+    const card = createAdminCard({
+        id: `${encodedFileName}`,
+        title: `${fileInfo.name}`,
+        bodyContent: false,
+        icon: 'fa-file',
+        cardClass: 'card-default text-purple',
+        isCollapsed: false,
+        usePills: false,
+    });
+
+
+    return card.outerHTML; // Pastikan mengembalikan string HTML
+};
 
 // Clear session and reload data
 const clearSession = async (options = {}) => {
@@ -158,10 +216,16 @@ const updateUI = (dataType, count, totalPages, currentPage, perPage, fileLists) 
         Session.set(sessionCountKey, count);
 
         // Render file info
-        fileLists.forEach(({ fileInfo }) => {
+        fileLists.forEach(({ fileInfo, status, typeFile }) => {
 
             if (fileInfo && fileInfo.name) {
-                lists += renderFileInfo(fileInfo);
+              if(typeFile == 'ignored') {
+                lists += renderFileIgnoredInfo(fileInfo, status);
+              } else if(typeFile == 'duplicated') {
+                lists += renderFileDuplicatedInfo(fileInfo, status);
+              } else {
+                lists += renderFileInfo(fileInfo, status);
+              }
             } else {
                 ConsoleManager.error('Incorrect file structure:', fileInfo);
             }

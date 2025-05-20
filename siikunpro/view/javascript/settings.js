@@ -27,7 +27,6 @@ const tabsDataSettings = [
         id: 'directory-configuration',
         content: `
             <div id="dynamicPathsContainer"></div>
-            <button id="addPathButton" class="btn btn-success">Add New Path</button>
         `
     }
 ];
@@ -78,12 +77,13 @@ function populatePaths(pathsData) {
     clearConfig('#dynamicPathsContainer');
     const container = document.getElementById('dynamicPathsContainer');
     if (container) {
+      container.classList.add('pt-3');
         Object.entries(pathsData).forEach(([key, pathConfig], index) => {
-            container.appendChild(createPathForm(key, pathConfig, index + 1));
+          container.appendChild(createPathForm(key, pathConfig, index + 1));
         });
-        document.getElementById('addPathButton')?.addEventListener('click', addNewPath);
     }
 }
+
 
 function addNewPath() {
     const container = document.getElementById('dynamicPathsContainer');
@@ -100,13 +100,6 @@ function clearConfig(selector) {
     }
 }
 
-function removeConfigPath(selector) {
-    const container = document.getElementById(selector);
-    if (container) {
-
-        container.remove();
-    }
-}
 
 // Fungsi untuk membuat form obfuscator
 function createObfuscatorForm(pathConfig = {}) {
@@ -122,14 +115,13 @@ function createObfuscatorForm(pathConfig = {}) {
             <textarea class="form-control mime-types-field" id="allowed_mime_types">${(pathConfig.allowed_mime_types || []).join(', ')}</textarea>
         </div>
     `;
+
+
     return pathForm;
 }
 
 function createPathForm(key, pathConfig = {}, index) {
-    const pathForm = document.createElement('div');
-    pathForm.classList.add('path-config');
-    pathForm.id = `${key}`;
-    pathForm.innerHTML = `
+    const pathFormHTML = `
         <div class="form-group">
             <label for="name_${key}">Name</label>
             <input type="text" class="form-control name-field" data-key="${key}" id="name_${key}" value="${pathConfig.name || ''}">
@@ -158,8 +150,36 @@ function createPathForm(key, pathConfig = {}, index) {
             <label for="duplicated_dirs_${key}">Duplicated dirs</label>
             <textarea class="form-control duplicated-dirs-field" data-key="${key}" id="duplicated_dirs_${key}">${(pathConfig.duplicated_dirs || []).join(', ')}</textarea>
         </div>
-        <button class="btn btn-danger btn-sm" onclick="removeConfigPath('${key}')">Remove</button>
     `;
+
+      // Menggunakan helper createAdminCard untuk membuat card
+      const card = createAdminCard({
+          id: `${key}-card`,
+          title: `${pathConfig.name || 'Path'}`,
+          bodyContent: pathFormHTML,
+          icon: 'fa-file',
+          cardClass: 'card-default',
+          isCollapsed: true,
+          usePills: false,
+          tools: [
+              {
+                  widget: 'collapse',
+                  icon: 'fa-plus'
+              },
+              {
+                  widget: 'remove',
+                  icon: 'fa-times',
+                  onClick: () => alert('Diklik!')
+
+              }
+          ],
+      });
+
+      const pathForm = document.createElement('div');
+      pathForm.classList.add('path-config');
+      pathForm.id = `${key}`;
+      pathForm.innerHTML = card.outerHTML;
+
     return pathForm;
 }
 
@@ -236,7 +256,8 @@ const modalSettingsConfig = {
     loading: true,
     loadingText: 'Mohon tunggu, sedang memuat...',
     footer: [
-        { label: 'Batal', class: 'btn btn-secondary', dismiss: true },
+      { label: 'Add New Path', class: 'btn btn-default', callback: addNewPath },
+      { label: 'Batal', class: 'btn btn-secondary', dismiss: true },
         { label: 'Simpan', class: 'btn btn-primary', callback: submitConfig }
     ],
     onLoad: modalSettingsContent

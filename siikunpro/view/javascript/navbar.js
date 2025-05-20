@@ -181,3 +181,50 @@ function createNavbar() {
 
   return navbar;
 }
+
+function createDefaultNavbar() {
+  const navbar = createElement('nav', 'main-header navbar navbar-expand navbar-white navbar-light border-0');
+  const navbarBrand = createElement('div', 'navbar-brand text-center', '', { style:'' });
+  const brandText = createElement('span', 'brand-text font-weight-light', `${Name} V${Version}`);
+  const buttonContainer = createElement('div', 'navbar-nav ml-auto');
+
+  // Dropdown dengan beberapa link
+  const multiLink = [
+      {
+        label: 'Tentang Aplikasi',
+        href: '#about',
+        icon: 'fas fa-info-circle',
+        callback: (item, index, event) => {
+          const createModalAbout = createModal(modalAboutConfig);
+          document.body.appendChild(createModalAbout);
+          $(createModalAbout).modal('show');
+        }
+      },
+      {
+        label: 'Kontak',
+        href: '#contact',
+        icon: 'fas fa-envelope',
+        callback: (item, index, event) => {
+          const createModalAbout = createModal(modalAboutConfig);
+          document.body.appendChild(createModalAbout);
+          $(createModalAbout).modal('show');
+        }
+      }
+  ];
+
+  // Multi-link tanpa dropdown
+  const createMultiLink = createNavLink({
+      links: multiLink
+  });
+
+
+  buttonContainer.appendChild(createMultiLink);
+  // Menambahkan tombol ke navbar
+
+
+  navbarBrand.appendChild(brandText);
+  navbar.appendChild(navbarBrand);
+  navbar.appendChild(buttonContainer);
+
+  return navbar;
+}
