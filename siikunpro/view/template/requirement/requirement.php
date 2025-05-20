@@ -35,7 +35,7 @@
 
 
         // Contoh nilai simulasi (replace sesuai data PHP)
-        const error_warning = null; // atau teks error
+        const error_warning = '<?php echo $error_warning ?>'; // atau teks error
         const action = '<?php echo $action ?>'; // URL form
         const text_setting = '<?php echo $text_setting ?>';
         const text_current = '<?php echo $text_current ?>';
@@ -700,7 +700,7 @@
             alertText,
             closeBtn
           ]);
-          container.appendChild(alertBox);
+          containerFluid.appendChild(alertBox);
         }
 
         // Wrapper row dan col
