@@ -88,4 +88,3 @@ Proyek ini hanya boleh digunakan untuk kebutuhan pribadi atau internal. Beberapa
 Pengembang: **Rohmad Kadarwanto**  
 Organisasi: [Karya Kode Indonesia](https://github.com/karyakode)  
 Email: `karyakode[at]gmail.com`
-
