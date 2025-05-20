@@ -24,6 +24,13 @@
 
 ---
 
+## 🚀 Cara Instalasi lewat composer repositori
+
+### 1. Composer repositori SiiKUN PRO
+```bash
+composer create-project karyakode/siikunpro --stability dev
+```
+
 ## 🚀 Cara Install
 
 ### 1. Clone dari GitHub
