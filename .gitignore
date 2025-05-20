@@ -1,1 +1,3 @@
 system/storage/logs/*.log
+system/storage/cache/cache.*
+system/storage/session/sess.*
