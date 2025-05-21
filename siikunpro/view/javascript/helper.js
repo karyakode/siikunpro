@@ -582,7 +582,7 @@ function createModal(config) {
         id: 'modal',
         title: 'Modal Title',
         body: 'This is the modal body.',
-        footer: [],
+        footer: [], // akan dicek apakah ada isinya
         backdrop: true,
         keyboard: true,
         modalClass: 'modal fade',
@@ -598,10 +598,16 @@ function createModal(config) {
 
     const settings = { ...defaultConfig, ...config };
 
-    const modal = createElement('div', settings.modalClass, '', { id: settings.id, tabindex: '-1', role: 'dialog' });
+    const modal = createElement('div', settings.modalClass, '', {
+        id: settings.id,
+        tabindex: '-1',
+        role: 'dialog'
+    });
+
     const dialog = createElement('div', settings.dialogClass);
     const content = createElement('div', settings.contentClass);
 
+    // Header
     const header = createElement('div', settings.headerClass);
     const title = createElement('h5', '', settings.title);
     const closeButton = createElement('button', 'close', '×', {
@@ -612,55 +618,60 @@ function createModal(config) {
     header.appendChild(title);
     header.appendChild(closeButton);
 
+    // Body
     const body = createElement('div', settings.bodyClass);
-
-    // Jika loading diaktifkan, tambahkan elemen loading
     if (settings.loading) {
         const loadingIndicator = createElement('div', 'text-center', settings.loadingText);
         body.appendChild(loadingIndicator);
     } else {
-        body.innerHTML = settings.body; // Mengisi konten modal jika tidak loading
+        body.innerHTML = settings.body;
     }
-
-    const footer = createElement('div', settings.footerClass);
-    settings.footer.forEach(button => {
-        const footerButton = createElement('button', '', button.label, {
-            type: 'button',
-            class: button.class || 'btn btn-primary',
-            'data-dismiss': button.dismiss ? 'modal' : undefined,
-        });
-        if (button.callback) {
-            footerButton.addEventListener('click', (event) => {
-                event.preventDefault();
-                button.callback(event);
-            });
-        }
-        footer.appendChild(footerButton);
-    });
-
+    // Gabungkan komponen
     content.appendChild(header);
     content.appendChild(body);
-    content.appendChild(footer);
+    
+    // Footer (opsional)
+    if (Array.isArray(settings.footer) && settings.footer.length > 0) {
+        const footer = createElement('div', settings.footerClass);
+        settings.footer.forEach(button => {
+            const footerButton = createElement('button', '', button.label, {
+                type: 'button',
+                class: button.class || 'btn btn-primary',
+                'data-dismiss': button.dismiss ? 'modal' : undefined,
+            });
+
+            if (button.callback) {
+                footerButton.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    button.callback(event);
+                });
+            }
+
+            footer.appendChild(footerButton);
+        });
+        content.appendChild(footer);
+    }
+
+
+
     dialog.appendChild(content);
     modal.appendChild(dialog);
 
-    // Tambahkan event listener untuk reset konten modal saat ditutup
+    // Reset konten saat modal ditutup
     $(modal).on('hidden.bs.modal', () => {
-        // Bersihkan konten modal setiap kali ditutup
         body.innerHTML = '';
     });
 
-    // Menambahkan event listener untuk callback onLoad saat modal ditampilkan
+    // Panggil onLoad saat modal ditampilkan
     $(modal).on('shown.bs.modal', () => {
-        // Reset konten modal dan memanggil onLoad
-        if (settings.onLoad) {
-            // Panggil fungsi onLoad untuk memuat konten
+        if (typeof settings.onLoad === 'function') {
             settings.onLoad(body);
         }
     });
 
     return modal;
 }
+
 
 /**
  * Helper function to create an AdminLTE 3 card using createElement.

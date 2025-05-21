@@ -1,7 +1,7 @@
 function createNavbar() {
   const navbar = createElement('nav', 'main-header navbar navbar-expand navbar-white navbar-light border-0');
   const navbarBrand = createElement('div', 'navbar-brand text-center', '', { style:'' });
-  const brandText = createElement('span', 'brand-text font-weight-light', `${Name} V${Version}`);
+  const brandText = createElement('span', 'brand-text font-weight-light', `${Name} V${Version.replace(/^v/, '').split('-')[0].slice(0, 3)}`);
   const buttonContainer = createElement('div', 'navbar-nav ml-auto');
 
   // Fetch statistics and update for specific tabs
@@ -134,7 +134,7 @@ function createNavbar() {
     {
       label: 'Tetang Aplikasi',
       href: '#about',
-      icon: 'fas fa-info', // Menambahkan ikon untuk Settings
+      icon: 'fas fa-info-circle', // Menambahkan ikon untuk Settings
       callback: (item, index, event) => {
         const createModalAbout = createModal(modalAboutConfig);
         document.body.appendChild(createModalAbout);
@@ -143,6 +143,15 @@ function createNavbar() {
     },
   ];
   const dropdownbuttons = [
+    {
+      label: 'Update',
+      icon: 'fas fa-sync-alt',
+      onClick: () => {
+        const createModalUpdate = createModal(modalUpdateApp);
+        document.body.appendChild(createModalUpdate);
+        $(createModalUpdate).modal('show');      
+      } // Fungsi untuk refresh halaman
+    },   
     {
         label: 'Refresh',
         icon: 'fas fa-sync-alt',
@@ -167,8 +176,10 @@ function createNavbar() {
         isButtonDropdown: true,
         buttons: dropdownbuttons
       }]
-});
+  });
 
+  
+  buttonContainer.appendChild(createDropdownbuttons);
   //buttonContainer.appendChild(createMultiLink);
   // Menambahkan tombol ke navbar
   buttonContainer.appendChild(createDropdownbuttons);
@@ -185,7 +196,7 @@ function createNavbar() {
 function createDefaultNavbar() {
   const navbar = createElement('nav', 'main-header navbar navbar-expand navbar-white navbar-light border-0');
   const navbarBrand = createElement('div', 'navbar-brand text-center', '', { style:'' });
-  const brandText = createElement('span', 'brand-text font-weight-light', `${Name} V${Version}`);
+  const brandText = createElement('span', 'brand-text font-weight-light', `${Name} V${Version.replace(/^v/, '').split('-')[0].slice(0, 3)}`);
   const buttonContainer = createElement('div', 'navbar-nav ml-auto');
 
   // Dropdown dengan beberapa link

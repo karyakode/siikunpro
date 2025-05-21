@@ -257,8 +257,7 @@ const modalSettingsConfig = {
     loadingText: 'Mohon tunggu, sedang memuat...',
     footer: [
       { label: 'Add New Path', class: 'btn btn-default', callback: addNewPath },
-      { label: 'Batal', class: 'btn btn-secondary', dismiss: true },
-        { label: 'Simpan', class: 'btn btn-primary', callback: submitConfig }
+    { label: 'Simpan', class: 'btn btn-primary', callback: submitConfig }
     ],
     onLoad: modalSettingsContent
 };

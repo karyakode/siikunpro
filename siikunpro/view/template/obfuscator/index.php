@@ -53,6 +53,7 @@
     <script src="siikunpro/view/javascript/license.js"></script>
     <script src="siikunpro/view/javascript/navbar.js"></script>
     <script src="siikunpro/view/javascript/content.js"></script>
+    <script src="siikunpro/view/javascript/update.js"></script>
 
 
     <script>
