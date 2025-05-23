@@ -58,7 +58,7 @@ const modalAboutContent = async (body) => {
 
 const modalAboutConfig = {
     id: 'modalAbout',
-    title: '<i class="fas fa-info-circle mr-2"></i>Tentang Aplikasi',
+    title: '<i class="fas fa-info-circle mr-2"></i>Tentang',
     loading: true,
     loadingText: 'Mohon tunggu, sedang memuat informasi...',
     onLoad: modalAboutContent

@@ -1,149 +1,156 @@
 const endpoint = {
-    status: 'index.php?route=/api/update/getStatus',
-    check: 'index.php?route=/api/update/checkVersion',
-    update: 'index.php?route=/api/update/processUpdate'
+    status: 'index.php?route=/api/update/checkStatus',
+    check: 'index.php?route=/api/update/getStatus',
+    update: 'index.php?route=/api/update/processUpdate',
+    downloadProgress: 'index.php?route=/api/update/downloadProgress'
 };
 
 function updateStatusUI(data) {
-    document.getElementById('update-status').textContent = data.status_label;
-    document.getElementById('current-version').textContent = data.current_version;
-    document.getElementById('latest-version').textContent = data.latest_version;
-    //document.getElementById('update-log').value = renderRelease(data.log[0]) || '';
-    //tampilkanLog(data.log,document.getElementById('update-log'));
+    document.getElementById('update-status').textContent = data.status_label ?? data.message;
+    document.getElementById('current-version').textContent = data.current_version ?? '-';
+    document.getElementById('latest-version').textContent = data.latest_version ?? '-';
+    document.getElementById('size-mb').textContent = data.size_mb ?? '-';
+    document.getElementById('pre-release').textContent = data.pre_release ?? '-';
     
 }
 
+const INIT = 100;
+const UPDATED = 200;
+const LATEST = 204;
+const ERROR = 500;
+const BUSY = 504;
 
-function formatSize(bytes) {
-    return (bytes / 1024 / 1024).toFixed(2) + ' MB';
-}
+async function fetchStatus() {
+    const btnUpdate = document.getElementById('btn-update');
 
-function formatDate(iso) {
-    const date = new Date(iso);
-    return date.toLocaleString('id-ID', {
-        day: '2-digit',
-        month: 'short',
-        year: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-    });
-}
-
-function renderRelease(release) {
-    const container = document.getElementById('release-info');
-    const assetList = release.assets.map(asset => `
-      <li>
-        <a href="${asset.browser_download_url}" target="_blank">${asset.name}</a>
-        (${formatSize(asset.size)})
-      </li>
-    `).join('');
-
-    container.innerHTML = `
-      <h2>🚀 Rilis Baru: ${release.name}</h2>
-      <p><strong>Tag:</strong> ${release.tag_name}</p>
-      <p><strong>Tanggal Rilis:</strong> ${formatDate(release.published_at)}</p>
-      <p><strong>Changelog:</strong><br>${release.body.replace(/\n/g, "<br>")}</p>
-      <h3>📦 Assets:</h3>
-      <ul>${assetList}</ul>
-      <p><a href="${release.html_url}" target="_blank">🔗 Lihat di GitHub</a></p>
-    `;
-}
-
-
-
-function tampilkanLog(logText, textarea) {
-    if (!textarea) return;
-
-    // Jika logText bukan string, ubah ke string
-    if (typeof logText !== 'string') {
-        if (Array.isArray(logText)) {
-            logText = logText.join('\n');
-        } else {
-            logText = String(logText);
-        }
-    }
-
-    const lines = logText.split('\n');
-    textarea.value = ''; // reset textarea
-
-    lines.forEach(line => {
-        const firstCommaIndex = line.indexOf(',');
-        if (firstCommaIndex === -1) {
-            textarea.value += line + '\n';
-            return;
-        }
-
-        const timestamp = line.substring(0, firstCommaIndex).trim();
-        const logContent = line.substring(firstCommaIndex + 1).trim();
-        
-
-        // Jika mengandung JSON setelah teks tertentu
-        //if (logContent.startsWith('Pre-release found:')) {
-            const jsonStart = logContent.indexOf('{');
-            if (jsonStart !== -1) {
-                const jsonString = logContent.substring(jsonStart);
-                try {
-                    const json = JSON.parse(jsonString);
-                    textarea.value += `${timestamp}\n`;
-                    textarea.value += 'Pre-release ditemukan:\n';
-                    textarea.value += JSON.stringify(json, null, 2) + '\n\n';
-                } catch (e) {
-                    textarea.value += `${timestamp} ❌ Gagal parse JSON\n${logContent}\n\n`;
-                }
-                return;
-            }
-        //}
-
-        try {
-            const json = JSON.parse(logContent);
-            textarea.value += `${timestamp}\n`;
-            textarea.value += JSON.stringify(json, null, 2) + '\n\n';
-        } catch (e) {
-            //textarea.value += `${timestamp} - ${logContent}\n`;
-        }
-    });
-
-    textarea.scrollTop = textarea.scrollHeight;
-}
-
-function fetchStatus() {
-    fetch(endpoint.status)
-        .then(response => response.json())
-        .then(res => {
-            if (res.status === 'success') {
-                updateStatusUI(res.data);
-
-                // Jika masih updating, terus polling
-                if (res.data.status_label === 'updating') {
-                    setTimeout(fetchStatus, 2000);
-                }
-            } else {
-                document.getElementById('update-status').textContent = 'Gagal memuat status';
-            }
-        })
-        .catch(err => {
-            console.error('Gagal mengambil status:', err);
-            document.getElementById('update-status').textContent = 'Gagal memuat status';
-        });
-}
-
-// Fungsi async eksternal
-async function fetchVersion() {
     try {
-        const response = await fetch(endpoint.check);
+        const response = await fetch(endpoint.status);
         const res = await response.json();
 
         if (res.status === 'success') {
-            document.getElementById('update-status').textContent = res.message;
-            document.getElementById('current-version').textContent = res.data.current_version;
-            document.getElementById('latest-version').textContent = res.data.latest_version;
+            // Jika masih updating, polling ulang
+            if (res.data.status_label === 'updating') {
+                timeoutManager.startTimeout('updatingSiikun', async () => {
+                    await fetchStatus(); // <-- perlu dipanggil sebagai fungsi
+                }, 2); // delay dalam detik?
+            } else if (res.data.status_label === 'updated'){
+                if (btnUpdate) {
+                    btnUpdate.disabled = false;
+                    btnUpdate.innerHTML = `<i class="fas fa-download"></i> Jalankan Update`;
+                }
+
+                updateStatusUI(res.data);
+
+            }
         } else {
-            alert('Gagal mengecek versi: ' + res.message);
+            document.getElementById('update-status').textContent = 'Gagal memuat status';
         }
-    } catch (err) {
-        console.error('Gagal mengecek versi:', err);
-        alert('Terjadi kesalahan saat mengecek versi.');
+    } catch (error) {
+        ConsoleManager.error('Gagal mengambil status:', error);
+        document.getElementById('update-status').textContent = 'Gagal memuat status';
+    } finally {
+        
     }
+}
+
+function clearAppCache() {
+    // 1. Hapus Cache API (Service Worker cache)
+    if ('caches' in window) {
+        caches.keys().then(function (names) {
+            for (let name of names) {
+                caches.delete(name);
+            }
+        });
+    }
+
+    // 2. Hapus LocalStorage & SessionStorage
+    localStorage.clear();
+    sessionStorage.clear();
+
+    // 3. Hapus Cookies
+    document.cookie.split(";").forEach(function (cookie) {
+        document.cookie = cookie
+            .replace(/^ +/, "")
+            .replace(/=.*/, "=;expires=" + new Date(0).toUTCString() + ";path=/");
+    });
+
+    // 4. Optional: Cegah user kembali ke halaman sebelumnya
+    history.pushState(null, null, location.href);
+    window.addEventListener("popstate", function () {
+        history.pushState(null, null, location.href);
+    });
+
+    // 5. Optional: Reload halaman tanpa cache
+    window.location.href = window.location.href.split('?')[0] + '?clear=' + new Date().getTime();
+};
+
+
+function pollDownloadProgress() {
+    const infoElement = document.getElementById('download-info');
+    const btnUpdate = document.getElementById('btn-update');
+    const progressBarUpdater = document.querySelector('.progress-bar-update');
+    const fileSizeText = document.querySelector('.file-size-update');
+    const progressPercentageText = document.querySelector('.progress-percentage-update');
+    const updateStatus = document.getElementById('update-status');
+
+    timeoutManager.startTimeout('downloadPolling', async () => {
+        try {
+            const response = await fetch(endpoint.downloadProgress);
+            const result = await response.json();
+
+            if (result.status === 'success') {
+                const { size_mb, size, size_target_mb, size_target, status_label, message } = result.data;
+
+                // Hitung persentase jika target tersedia
+                let percentage = 0;
+                if (size_target > 0) {
+                    percentage = Math.min((size / size_target) * 100, 100);
+                }
+
+                // Update elemen UI
+                fileSizeText.textContent = `${size_mb}`;
+                progressPercentageText.textContent = `(${percentage.toFixed(0)}%)`;
+                progressBarUpdater.style.width = `${percentage.toFixed(2)}%`;
+
+                // Jika selesai
+                if (size_target && size >= size_target) {
+                    progressBarUpdater.style.width = '100%';
+                    progressPercentageText.textContent = '(100%)';
+
+                    timeoutManager.clearTimeoutByKey('downloadPolling');
+
+                    /*if (btnUpdate) {
+                        btnUpdate.disabled = false;
+                        btnUpdate.innerHTML = `<i class="fas fa-download"></i> Jalankan Update`;
+                    }*/
+
+                    if (updateStatus) {
+                        updateStatus.textContent = status_label ?? message;
+                    }
+
+                    // Reload konten updater setelah selesai download
+                    const modalBody = document.querySelector('#updaterContent'); // ganti sesuai id/body target
+                    if (modalBody) {
+                        timeoutManager.startTimeout('modalUpdaterContentReload', async () => {
+                            //await modalUpdaterContent(modalBody); 
+                            clearAppCache(true);
+                        },0.5);
+                    }
+
+                    return;
+                }
+
+            } else {
+                //infoElement.textContent = result.message;
+            }
+
+        } catch (error) {
+            ConsoleManager.error('Polling gagal:', error);
+        }
+    }, 1, {
+        log: true,
+        repeat: true
+    });
 }
 
 async function runUpdate() {
@@ -155,7 +162,8 @@ async function runUpdate() {
     
     if (statusEl) statusEl.textContent = 'Memulai update...';
     //if (logEl) logEl.value += 'Memulai update...\n';
-
+    await pollDownloadProgress(); // mulai polling ukuran file
+    await fetchStatus();
     try {
         const response = await fetch(endpoint.update);
         const res = await response.json();
@@ -173,28 +181,22 @@ async function runUpdate() {
             //if (logEl) logEl.value += `Update gagal: ${res.message}\n`;
         }
 
-        await fetchStatus(); // polling ulang status
-
     } catch (err) {
-        console.error('Gagal menjalankan update:', err);
+        ConsoleManager.error('Gagal menjalankan update:', err);
         alert('Terjadi kesalahan saat update.');
 
         if (statusEl) statusEl.textContent = 'Terjadi kesalahan.';
         //if (logEl) logEl.value += `Kesalahan: ${err.message}\n`;
-    } finally {
-        if (btnUpdate) {
-            btnUpdate.disabled = false;
-            btnUpdate.innerHTML = `<i class="fas fa-download"></i> Jalankan Update`;
-        }
-    }
+    } 
 }
 
 const modalUpdaterContent = async (body) => {
     if (!body) {
-        console.warn('Elemen body tidak ditemukan');
+        ConsoleManager.warn('Elemen body tidak ditemukan');
         return;
     }
 
+    
     // Reset konten body
     body.innerHTML = '';
     const updaterContent = createElement('div', '', '', { id: 'updaterContent' });
@@ -202,22 +204,24 @@ const modalUpdaterContent = async (body) => {
 
     // Spinner loading utama
     const loadingIndicator = createElement('div', 'text-center', `
-        <div class="spinner-border text-primary" role="status"></div>
+        <div class="spinner-border text-default" role="status"></div>
         <div>Mohon tunggu, sedang memuat informasi versi...</div>
     `);
     updaterContent.appendChild(loadingIndicator);
 
     // Elemen status
-    const statusBox = createElement('div', 'mb-3', '', { id: 'status-box' });
+    const statusBox = createElement('div', '', '', { id: 'status-box' });
     statusBox.innerHTML = `
         <p><strong>Status:</strong> <span id="update-status" class="text-info">Memuat...</span></p>
         <p><strong>Versi Saat Ini:</strong> <span id="current-version">-</span></p>
         <p><strong>Versi Terbaru:</strong> <span id="latest-version">-</span></p>
+        <p><strong>Ukuran:</strong> <span id="size-mb">-</span></p>
+        <p><strong>Pre-release:</strong> <span id="pre-release">-</span></p>
     `;
 
     // Tombol update
-    const buttonGroup = createElement('div', 'btn-group mb-3');
-    const btnUpdate = createElement('button', 'btn btn-primary btn-block mt-2 mb-2', `
+    const buttonGroup = createElement('div', 'btn-group');
+    const btnUpdate = createElement('button', 'btn btn-primary btn-block', `
         <i class="fas fa-download"></i> Jalankan Update
     `, {
         id: 'btn-update',
@@ -225,6 +229,7 @@ const modalUpdaterContent = async (body) => {
     });
 
     // Area log
+    const sizeUpdate = createElement('span', 'file-size-update mr-1');
     const formGroup = createElement('div', 'form-group');
     const label = createElement('label', '', 'Log Update:', { for: 'update-log' });
     const textarea = createElement('textarea', 'form-control', '', {
@@ -244,13 +249,22 @@ const modalUpdaterContent = async (body) => {
         updaterContent.appendChild(statusBox);
 
         if (res.status === 'success') {
-            document.getElementById('update-status').textContent = res.message;
-            document.getElementById('current-version').textContent = res.data.current_version;
-            document.getElementById('latest-version').textContent = res.data.latest_version || '-';
+
+            await updateStatusUI(res.data);
 
             if (!res.data.is_latest) {
-                buttonGroup.appendChild(btnUpdate);
-                updaterContent.appendChild(buttonGroup);
+
+                statusBox.innerHTML +=`
+                    <div id="download-info">
+                        <div class="progress"><div class="progress-bar progress-bar-update"></div></div>
+                        <span class="progress-description progress-description-update">
+                        <span class="file-size-update mr-1"></span>
+                        <span class="progress-percentage-update ml-1"></span>
+                        </span>
+                    </div>
+                `;
+                
+                updaterContent.appendChild(btnUpdate);
 
                 btnUpdate.addEventListener('click', async () => {
                     btnUpdate.disabled = true;
@@ -279,7 +293,7 @@ const modalUpdaterContent = async (body) => {
         }
 
     } catch (err) {
-        console.error('Gagal mengecek versi:', err);
+        ConsoleManager.error('Gagal mengecek versi:', err);
         loadingIndicator.remove();
 
         const errorMsg = createElement('div', 'alert alert-danger text-center', 'Terjadi kesalahan saat mengecek versi.');
@@ -295,18 +309,10 @@ const modalUpdaterContent = async (body) => {
 // Konfigurasi modal settings
 const modalUpdateApp = {
     id: 'modalUpdateApp',
-    title: 'Updater v1.0',
+    title: 'Updater v1.0.1',
     loading: true,
     loadingText: 'Mohon tunggu, sedang memuat informasi versi...',
     onLoad: modalUpdaterContent,
     //footer: false
 };
 
-
-// Event listeners
-document.addEventListener('DOMContentLoaded', function () {
-    //fetchVersion();
-
-    //document.getElementById('btn-check-version').addEventListener('click', fetchVersion);
-    //document.getElementById('btn-update').addEventListener('click', runUpdate);
-});

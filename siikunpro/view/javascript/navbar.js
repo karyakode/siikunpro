@@ -84,6 +84,38 @@ function createNavbar() {
     }
   };
 
+  function clearAppCache() {
+    // 1. Hapus Cache API (Service Worker cache)
+    if ('caches' in window) {
+      caches.keys().then(function (names) {
+        for (let name of names) {
+          caches.delete(name);
+        }
+      });
+    }
+
+    // 2. Hapus LocalStorage & SessionStorage
+    localStorage.clear();
+    sessionStorage.clear();
+
+    // 3. Hapus Cookies
+    document.cookie.split(";").forEach(function (cookie) {
+      document.cookie = cookie
+        .replace(/^ +/, "")
+        .replace(/=.*/, "=;expires=" + new Date(0).toUTCString() + ";path=/");
+    });
+
+    // 4. Optional: Cegah user kembali ke halaman sebelumnya
+    history.pushState(null, null, location.href);
+    window.addEventListener("popstate", function () {
+      history.pushState(null, null, location.href);
+    });
+
+    // 5. Optional: Reload halaman tanpa cache
+    window.location.href = window.location.href.split('?')[0] + '?clear=' + new Date().getTime();
+  };
+
+
   // Dropdown dengan beberapa link
   const multiLink = [
       {
@@ -156,7 +188,8 @@ function createNavbar() {
         label: 'Refresh',
         icon: 'fas fa-sync-alt',
         onClick: () => {
-          location.reload();
+          //location.reload();
+          clearAppCache();
         } // Fungsi untuk refresh halaman
     },
     {
@@ -202,7 +235,7 @@ function createDefaultNavbar() {
   // Dropdown dengan beberapa link
   const multiLink = [
       {
-        label: 'Tentang Aplikasi',
+        label: 'Tentang',
         href: '#about',
         icon: 'fas fa-info-circle',
         callback: (item, index, event) => {

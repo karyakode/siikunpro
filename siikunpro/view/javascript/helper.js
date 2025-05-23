@@ -621,8 +621,12 @@ function createModal(config) {
     // Body
     const body = createElement('div', settings.bodyClass);
     if (settings.loading) {
-        const loadingIndicator = createElement('div', 'text-center', settings.loadingText);
-        body.appendChild(loadingIndicator);
+        const loadingSpiner = createElement('div', 'text-center', `
+         <div class="spinner-border text-default" role="status"></div>
+        `);
+        const loadingIndicator = createElement('div', 'text-center', `<div>${settings.loadingText}</div>`);
+        body.appendChild(loadingSpiner);
+        if (settings.loadingText) body.appendChild(loadingIndicator);
     } else {
         body.innerHTML = settings.body;
     }

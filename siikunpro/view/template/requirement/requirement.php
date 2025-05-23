@@ -121,6 +121,7 @@
     <script src="siikunpro/view/javascript/license.js"></script>
     <script src="siikunpro/view/javascript/navbar.js"></script>
     <script src="siikunpro/view/javascript/content.js"></script>
+    <script src="siikunpro/view/javascript/update.js"></script>
 
 
     <script>
@@ -135,17 +136,24 @@
 
       // Dropdown dengan beberapa link
       const multiLink = [
+         {
+          label: 'Update',
+          icon: 'fas fa-sync-alt',
+          callback: (item, index, event) => {
+            const createModalUpdate = createModal(modalUpdateApp);
+            document.body.appendChild(createModalUpdate);
+            $(createModalUpdate).modal('show');
+          }
+        },       
         {
           label: 'Refresh',
-          href: '#check',
           icon: 'fas fa-sync-alt',
           callback: (item, index, event) => {
             location.reload();
           }
         },
           {
-            label: 'Tentang Aplikasi',
-            href: '#about',
+            label: 'Tentang',
             icon: 'fas fa-info-circle',
             callback: (item, index, event) => {
               const createModalAbout = createModal(modalAboutConfig);
